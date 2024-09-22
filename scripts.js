@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             },
             grid: {
                 padding: {
-                    top: 25
+                    top: 10
                 }
             },
             colors: colors,
@@ -111,14 +111,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                 labels: {
                     formatter: valuesFormatter
                 }
-            },
-            legend: {
-                show: true,
-                position: 'top',
-                horizontalAlign: 'right',
-                floating: true,
-                offsetY: 0,
-                offsetX: -5
             },
             tooltip: {
                 enabled: true,
@@ -230,7 +222,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             },
             grid: {
                 padding: {
-                    top: 25
+                    top: 10
                 }
             },
             colors: colors,
@@ -249,14 +241,6 @@ document.addEventListener("DOMContentLoaded", async function () {
                 labels: {
                     formatter: valuesFormatter
                 }
-            },
-            legend: {
-                show: true,
-                position: 'top',
-                horizontalAlign: 'right',
-                floating: true,
-                offsetY: 0,
-                offsetX: -5
             }
         };
 
