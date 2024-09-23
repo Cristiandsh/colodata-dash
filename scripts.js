@@ -112,11 +112,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                     formatter: valuesFormatter
                 }
             },
-            tooltip: {
-                enabled: true,
-                fixed: {
-                    enabled: false
-                }
+            legend: {
+                show: false
             }
         };
 
@@ -241,6 +238,9 @@ document.addEventListener("DOMContentLoaded", async function () {
                 labels: {
                     formatter: valuesFormatter
                 }
+            },
+            legend: {
+                show: false
             }
         };
 
